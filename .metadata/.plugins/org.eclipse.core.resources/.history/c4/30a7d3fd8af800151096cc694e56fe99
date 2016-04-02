@@ -1,0 +1,20 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Apr 1, 2016
+ *      Author: osvaldo
+ */
+#include "RedBlackTree.h"
+
+
+int main(){
+
+	RBtree myTree;
+
+	myTree.insert();
+
+
+	myTree.disp();
+
+	return 0;
+}
