@@ -10,13 +10,13 @@
 
 #include <string>
 #include "BSTprinter.h"
+#include "Functions.h"
 
 
 class RBtree
 {
       node *root;
       node *q;
-      BTreePrinter<int> myTree;
    public :
       RBtree()
       {
@@ -465,7 +465,7 @@ void RBtree::search()
 
 void  RBtree :: printTree()
 {
-	myTree.printNode(root);
+
 }
 
 

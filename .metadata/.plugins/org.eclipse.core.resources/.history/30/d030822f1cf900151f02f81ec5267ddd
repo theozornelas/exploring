@@ -12,11 +12,18 @@
 #include "BSTprinter.h"
 
 
+struct node
+{
+       int key;
+       node *parent;
+       char color;
+       node *left;
+       node *right;
+};
 class RBtree
 {
       node *root;
       node *q;
-      BTreePrinter<int> myTree;
    public :
       RBtree()
       {
@@ -465,7 +472,7 @@ void RBtree::search()
 
 void  RBtree :: printTree()
 {
-	myTree.printNode(root);
+
 }
 
 

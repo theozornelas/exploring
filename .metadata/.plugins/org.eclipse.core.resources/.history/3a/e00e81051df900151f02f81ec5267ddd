@@ -16,7 +16,6 @@ class RBtree
 {
       node *root;
       node *q;
-      BTreePrinter<int> myTree;
    public :
       RBtree()
       {
@@ -465,6 +464,8 @@ void RBtree::search()
 
 void  RBtree :: printTree()
 {
+	BTreePrinter<int> myTree;
+
 	myTree.printNode(root);
 }
 

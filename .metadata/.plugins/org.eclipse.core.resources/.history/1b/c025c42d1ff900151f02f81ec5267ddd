@@ -9,8 +9,6 @@
 
 int main(){
 
-
-
 	RBtree myTree;
 
 	int dataAr[6] = {33,22,50,44,55,60};

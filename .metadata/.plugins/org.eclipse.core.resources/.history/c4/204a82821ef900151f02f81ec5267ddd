@@ -9,30 +9,22 @@
 
 int main(){
 
-
-
 	RBtree myTree;
 
-	int dataAr[6] = {33,22,50,44,55,60};
+	int dataAr[10];
 
-	for(int index = 0; index <6; index++){
+	for(int index = 0; index <10; index++){
+		dataAr[index] = index+1;
 
 		cout << "Inserting.... " << dataAr[index] << endl;
 
 		myTree.insert(dataAr[index]);
 	}
 
-	//myTree.disp();
-
-	myTree.printTree();
-
-	myTree.del();
+	myTree.disp();
 
 
-	myTree.printTree();
-
-	myTree.del();
-
+	cin.ignore();
 
 	myTree.printTree();
 

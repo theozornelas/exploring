@@ -9,8 +9,9 @@
 #include <math.h>
 #include <vector>
 #include <iostream>
-#include "functions.h"
+
 using namespace std;
+#include "RedBlackTree.h"
 
 
 template<class type> class Tree;

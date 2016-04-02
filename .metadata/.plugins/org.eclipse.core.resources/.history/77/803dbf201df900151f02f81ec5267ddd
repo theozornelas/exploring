@@ -465,6 +465,8 @@ void RBtree::search()
 
 void  RBtree :: printTree()
 {
+
+
 	myTree.printNode(root);
 }
 
