@@ -1,9 +1,9 @@
-/*****************************************************
- *AUTHOR         :  Osvaldo Moreno Ornelas
- *CLASS          :  CS 1D
- *SECTION        :  MW:  430p - 7:50p
- *DUE DATE       :  3/02/16
- *****************************************************/
+/*
+ * RedBlackTree.h
+ *
+ *  Created on: Apr 1, 2016
+ *      Author: osvaldo
+ */
 
 #ifndef REDBLACKTREE_H_
 #define REDBLACKTREE_H_
@@ -27,7 +27,7 @@ class RBtree
       void insertfix(node *);
       void leftrotate(node *);
       void rightrotate(node *);
-      void del(int x);
+      void del();
       node* successor(node *);
       void delfix(node *);
       void disp();
@@ -125,13 +125,16 @@ void RBtree::insertfix(node *z)
 }
 }
 }
-void RBtree::del(int x)
+void RBtree::del()
 {
      if(root==NULL)
      {
            cout<<"\nEmpty Tree." ;
            return ;
      }
+     int x;
+     cout<<"\nEnter the key of the node to be deleted: ";
+     cin>>x;
      node *p;
      p=root;
      node *y=NULL;

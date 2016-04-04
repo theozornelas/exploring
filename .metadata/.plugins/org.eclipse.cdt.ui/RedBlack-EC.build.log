@@ -1,4 +1,4 @@
-15:06:42 **** Incremental Build of configuration Debug for project RedBlack-EC ****
+19:36:56 **** Incremental Build of configuration Debug for project RedBlack-EC ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
 In file included from ..\main.cpp:7:0:
@@ -7,10 +7,10 @@ In file included from ..\main.cpp:7:0:
       int i=0;
           ^
 ..\RedBlackTree.h: In member function 'void RBtree::delfix(node*)':
-..\RedBlackTree.h:240:44: warning: statement has no effect [-Wunused-value]
+..\RedBlackTree.h:237:44: warning: statement has no effect [-Wunused-value]
                               s->left->color=='b';
                                             ^
 g++ -o RedBlack-EC.exe Fill.o InstructionsHeader.o PrintHeader.o main.o 
 
-15:06:43 Build Finished (took 1s.90ms)
+19:36:58 Build Finished (took 2s.662ms)
 

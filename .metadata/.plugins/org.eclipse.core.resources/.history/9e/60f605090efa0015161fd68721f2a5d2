@@ -6,6 +6,7 @@
  *****************************************************/
 #include "RedBlackTree.h"
 
+
 int main(){
 
 	PrintHeader(cout, "Red Black Tree Implementation", "Osvaldo Moreno Ornelas", 'A',11);
@@ -29,12 +30,12 @@ int main(){
 
 
 	cout << endl << InstructionHeader("ABOUT TO DELETE 50 FROM TREE") << endl;
-	myTree.del(50);
+	myTree.del();
 
 	cout << endl << InstructionHeader("TREE AFTER DELETING 50") << endl;
 	myTree.printTree();
 
-	myTree.del(45);
+	myTree.del();
 
 
 	myTree.printTree();

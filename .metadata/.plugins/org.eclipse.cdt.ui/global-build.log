@@ -700,3 +700,76 @@ In file included from ..\main.cpp:7:0:
                               s->left->color=='b';
                                             ^
 g++ -o RedBlack-EC.exe Fill.o InstructionsHeader.o PrintHeader.o main.o 
+19:27:40 **** Incremental Build of configuration Debug for project RedBlack-EC ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+In file included from ..\main.cpp:7:0:
+..\RedBlackTree.h: In member function 'void RBtree::insert(int)':
+..\RedBlackTree.h:42:10: warning: unused variable 'i' [-Wunused-variable]
+      int i=0;
+          ^
+..\RedBlackTree.h: In member function 'void RBtree::delfix(node*)':
+..\RedBlackTree.h:240:44: warning: statement has no effect [-Wunused-value]
+                              s->left->color=='b';
+                                            ^
+g++ -o RedBlack-EC.exe Fill.o InstructionsHeader.o PrintHeader.o main.o 
+19:36:13 **** Incremental Build of configuration Debug for project RedBlack-EC ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Fill.o "..\\Fill.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o PrintHeader.o "..\\PrintHeader.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+In file included from ..\main.cpp:7:0:
+..\RedBlackTree.h: In member function 'void RBtree::insert(int)':
+..\RedBlackTree.h:42:10: warning: unused variable 'i' [-Wunused-variable]
+      int i=0;
+          ^
+..\RedBlackTree.h: In member function 'void RBtree::delfix(node*)':
+..\RedBlackTree.h:237:44: warning: statement has no effect [-Wunused-value]
+                              s->left->color=='b';
+                                            ^
+..\main.cpp: In function 'int main()':
+..\main.cpp:33:13: error: no matching function for call to 'RBtree::del()'
+  myTree.del();
+             ^
+..\main.cpp:33:13: note: candidate is:
+In file included from ..\main.cpp:7:0:
+..\RedBlackTree.h:128:6: note: void RBtree::del(int)
+ void RBtree::del(int x)
+      ^
+..\RedBlackTree.h:128:6: note:   candidate expects 1 argument, 0 provided
+..\main.cpp:38:13: error: no matching function for call to 'RBtree::del()'
+  myTree.del();
+             ^
+..\main.cpp:38:13: note: candidate is:
+In file included from ..\main.cpp:7:0:
+..\RedBlackTree.h:128:6: note: void RBtree::del(int)
+ void RBtree::del(int x)
+      ^
+..\RedBlackTree.h:128:6: note:   candidate expects 1 argument, 0 provided
+19:36:30 **** Incremental Build of configuration Debug for project RedBlack-EC ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+In file included from ..\main.cpp:7:0:
+..\RedBlackTree.h: In member function 'void RBtree::insert(int)':
+..\RedBlackTree.h:42:10: warning: unused variable 'i' [-Wunused-variable]
+      int i=0;
+          ^
+..\RedBlackTree.h: In member function 'void RBtree::delfix(node*)':
+..\RedBlackTree.h:237:44: warning: statement has no effect [-Wunused-value]
+                              s->left->color=='b';
+                                            ^
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o InstructionsHeader.o "..\\InstructionsHeader.cpp" 
+g++ -o RedBlack-EC.exe Fill.o InstructionsHeader.o PrintHeader.o main.o 
+19:36:56 **** Incremental Build of configuration Debug for project RedBlack-EC ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.cpp" 
+In file included from ..\main.cpp:7:0:
+..\RedBlackTree.h: In member function 'void RBtree::insert(int)':
+..\RedBlackTree.h:42:10: warning: unused variable 'i' [-Wunused-variable]
+      int i=0;
+          ^
+..\RedBlackTree.h: In member function 'void RBtree::delfix(node*)':
+..\RedBlackTree.h:237:44: warning: statement has no effect [-Wunused-value]
+                              s->left->color=='b';
+                                            ^
+g++ -o RedBlack-EC.exe Fill.o InstructionsHeader.o PrintHeader.o main.o 

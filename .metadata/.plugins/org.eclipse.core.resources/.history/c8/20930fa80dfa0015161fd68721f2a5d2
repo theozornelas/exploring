@@ -1,0 +1,40 @@
+/*
+ * main.cpp
+ *
+ *  Created on: Apr 1, 2016
+ *      Author: osvaldo
+ */
+#include "RedBlackTree.h"
+
+
+int main(){
+
+	PrintHeader(cout, "Red Black Tree Implementation", "Osvaldo Moreno Ornelas", 'A',11);
+
+	RBtree myTree;
+
+	int dataAr[6] = {33,22,50,44,55,60};
+
+	cout << endl << InstructionHeader("INSERTING INTO THE TREE") << endl;
+
+	for(int index = 0; index <6; index++){
+
+		cout << "Inserting.... " << dataAr[index] << endl;
+
+		myTree.insert(dataAr[index]);
+	}
+
+	myTree.printTree();
+
+	myTree.del();
+
+
+	myTree.printTree();
+
+	myTree.del();
+
+
+	myTree.printTree();
+
+	return 0;
+}

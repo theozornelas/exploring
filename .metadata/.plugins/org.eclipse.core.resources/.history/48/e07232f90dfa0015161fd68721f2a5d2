@@ -27,7 +27,7 @@ class RBtree
       void insertfix(node *);
       void leftrotate(node *);
       void rightrotate(node *);
-      void del(int x);
+      void del();
       node* successor(node *);
       void delfix(node *);
       void disp();
@@ -125,13 +125,16 @@ void RBtree::insertfix(node *z)
 }
 }
 }
-void RBtree::del(int x)
+void RBtree::del()
 {
      if(root==NULL)
      {
            cout<<"\nEmpty Tree." ;
            return ;
      }
+     int x;
+     cout<<"\nEnter the key of the node to be deleted: ";
+     cin>>x;
      node *p;
      p=root;
      node *y=NULL;
