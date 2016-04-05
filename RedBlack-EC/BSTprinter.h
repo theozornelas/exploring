@@ -8,10 +8,8 @@
 #pragma once
 #include <math.h>
 #include <vector>
-#include <iostream>
-#include "functions.h"
-using namespace std;
 
+#include "functions.h"
 
 template<class type> class Tree;
 
